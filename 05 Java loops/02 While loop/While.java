@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class WhileLoopExample {
+public class While {
 
    public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);

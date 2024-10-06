@@ -1,3 +1,5 @@
+// For loop :
+
 import java.util.Scanner;
 
 public class For {

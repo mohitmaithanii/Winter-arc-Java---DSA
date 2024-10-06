@@ -1,6 +1,6 @@
 // Logical Operators Demo
 
-public class LogicalOperators {
+public class Logical {
 
    public static void main(String[] args) {
 
