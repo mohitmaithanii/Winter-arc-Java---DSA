@@ -1,8 +1,12 @@
 import java.util.Scanner;
 
-public class ForLoopExamples {
+public class For {
    public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);
+
+      /*
+       * for( initialization expressions; Condition; Update expressions)
+       */
 
       // Example 1: Printing "Hello" using a for loop
       for (int i = 0; i <= 10; i++) {
