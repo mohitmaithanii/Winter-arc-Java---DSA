@@ -1,6 +1,6 @@
 // ForEach.java
 
-public class ForEach {
+public class ForEachLoop {
    public static void main(String[] args) {
       // Array of names
       String[] names = { "Ram", "Harsh", "Ankit", "Mohit" };
