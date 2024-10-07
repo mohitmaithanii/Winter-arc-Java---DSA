@@ -3,25 +3,25 @@
 public class Array {
    public static void main(String[] args) {
       // Declare and allocate an integer array of size 5
-      int age[] = new int[5];
+      int ages[] = new int[5];
 
       // Initialize the array elements
-      age[0] = 5;
-      age[1] = 2;
-      age[2] = 8;
-      age[3] = 4;
-      age[4] = 6;
+      ages[0] = 5;
+      ages[1] = 2;
+      ages[2] = 8;
+      ages[3] = 4;
+      ages[4] = 6;
 
       // Print the array elements
-      System.out.println("Age array elements:");
-      System.out.println(age[0]);
-      System.out.println(age[1]);
-      System.out.println(age[2]);
-      System.out.println(age[3]);
-      System.out.println(age[4]);
+      System.out.println("ages array elements:");
+      System.out.println(ages[0]);
+      System.out.println(ages[1]);
+      System.out.println(ages[2]);
+      System.out.println(ages[3]);
+      System.out.println(ages[4]);
 
       // Print the length of the array
-      System.out.println("Length of age array: " + age.length);
+      System.out.println("Length of ages array: " + ages.length);
 
       // Declare and initialize an integer array using an array initializer
       int marks[] = { 98, 23, 43, 50, 74 };
