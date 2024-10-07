@@ -1,6 +1,6 @@
 // Multi Dimensional Array in java : 
 
-public class MultiDimensionalArray {
+public class MultiDimensional {
 
    public static void main(String[] args) {
       // Declare a 2D array to store student marks
