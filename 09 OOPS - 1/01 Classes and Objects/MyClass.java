@@ -7,15 +7,20 @@ public class MyClass {
 
       // we use the 'new' keyword to create a new object
       Dog d1 = new Dog();
-      // we use dot notation to access the properties and methods of an object
+
       d1.name = "Tommy";
+      d1.age = 5;
+      d1.color = "Brown";
+
       // Methods are functions that belong to a class or object
       d1.bark();
 
       // Create a new Dog object called d2
       Dog d2 = new Dog();
-      // Set the name of d2 to "leo"
+
       d2.name = "leo";
+      d2.age = 3;
+      d2.color = "Black";
       d2.walk();
 
       // Create a new Complex object called num1
