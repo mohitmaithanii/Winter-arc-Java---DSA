@@ -1,40 +1,38 @@
-// Super Keyword in Java :
+// Super Keyword in Java : 
 
-// Parent class
+// Parent class representing a generic Animal
 class Animal {
    String name;
 
-   // Constructor of the parent class
+   // Constructor of the parent class to initialize the animal's name
    Animal(String name) {
       this.name = name;
    }
 
-   // Method of the parent class
+   // Method to display the name of the animal
    void display() {
       System.out.println("Animal Name: " + name);
    }
 }
 
-// Child class
+// Child class representing a Dog, which is a specific type of Animal
 class Dog extends Animal {
    String breed;
 
-   // Constructor of the child class
+   // Constructor of the child class to initialize both name and breed
    Dog(String name, String breed) {
-      // Calling the constructor of the parent class
       super(name);
       this.breed = breed;
    }
 
-   // Method of the child class
+   // Method to display the dog's information, including its breed
    void display() {
-      // Calling the method of the parent class
       super.display();
       System.out.println("Dog Breed: " + breed);
    }
 }
 
-// Main class to test the example
+// Main class to test the functionality of the Dog class
 public class SuperKeyword {
    public static void main(String[] args) {
       Dog dog = new Dog("Buddy", "Golden Retriever");
@@ -42,3 +40,9 @@ public class SuperKeyword {
    }
 }
 
+// Notes :
+// - The 'super' keyword is a special keyword in Java that refers to the
+// instance of the immediate parent class.
+// - It is used to access instance variables of the parent class.
+// - It allows invoking methods from the parent class.
+// - It can also be used to invoke the constructor of the parent class.
