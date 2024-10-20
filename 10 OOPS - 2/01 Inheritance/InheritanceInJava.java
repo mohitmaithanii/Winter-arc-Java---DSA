@@ -20,7 +20,7 @@ class Dog extends Animal {
    }
 }
 
-public class InheritanceExample {
+public class InheritanceInJava {
    public static void main(String[] args) {
       // Creating an instance of Dog class
       Dog dog = new Dog();
@@ -32,3 +32,12 @@ public class InheritanceExample {
       dog.bark(); // Calls the method from Dog class
    }
 }
+
+// Notes : 
+// Inheritance is one of the key features of OOP that allows us to create a new class from an existing class.
+
+// The new class that is created is know as subclass (child or derived class)  and the existing class from where the child class is derived is know as superclass (parent or base class).
+
+// If a subclass provides the specific implementation of the method that has been declared by one of its parent class, it is known as method overriding.
+
+// method overriding is also known as runtime polymorphism, Hence, we can achieve Polymorphism in java with the help of inheritance.
